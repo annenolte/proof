@@ -1,0 +1,1427 @@
+{
+  "name" : "Kitchen",
+  "objects" : [
+    {
+      "aabb" : {
+        "max" : [
+          2.476,
+          0.938,
+          5.3360004
+        ],
+        "min" : [
+          2.364,
+          0.74,
+          5.224
+        ]
+      },
+      "concept" : "glass carafe",
+      "hazards" : [
+        "breakable"
+      ],
+      "id" : "dining.carafe",
+      "label" : "Water carafe",
+      "role" : "hazard",
+      "source" : "auto",
+      "surfaces" : [
+
+      ]
+    },
+    {
+      "aabb" : {
+        "max" : [
+          3.3230436,
+          0.8521697,
+          6.100202
+        ],
+        "min" : [
+          2.6638007,
+          -0.0012899803,
+          5.484165
+        ]
+      },
+      "concept" : "chair",
+      "hazards" : [
+
+      ],
+      "id" : "dining.chair.0",
+      "label" : "Dining chair 1",
+      "role" : "climbable",
+      "source" : "auto",
+      "surfaces" : [
+        0.452
+      ]
+    },
+    {
+      "aabb" : {
+        "max" : [
+          2.0958354,
+          0.8521697,
+          6.583043
+        ],
+        "min" : [
+          1.4797982,
+          -0.0012899803,
+          5.9238005
+        ]
+      },
+      "concept" : "chair",
+      "hazards" : [
+
+      ],
+      "id" : "dining.chair.1",
+      "label" : "Dining chair 2",
+      "role" : "climbable",
+      "source" : "auto",
+      "surfaces" : [
+        0.452
+      ]
+    },
+    {
+      "aabb" : {
+        "max" : [
+          1.6561996,
+          0.85216963,
+          5.355835
+        ],
+        "min" : [
+          0.99695677,
+          -0.0012899801,
+          4.739798
+        ]
+      },
+      "concept" : "chair",
+      "hazards" : [
+
+      ],
+      "id" : "dining.chair.2",
+      "label" : "Dining chair 3",
+      "role" : "climbable",
+      "source" : "auto",
+      "surfaces" : [
+        0.452
+      ]
+    },
+    {
+      "aabb" : {
+        "max" : [
+          2.8402023,
+          0.8521697,
+          4.9161997
+        ],
+        "min" : [
+          2.224165,
+          -0.0012899803,
+          4.256957
+        ]
+      },
+      "concept" : "chair",
+      "hazards" : [
+
+      ],
+      "id" : "dining.chair.3",
+      "label" : "Dining chair 4",
+      "role" : "climbable",
+      "source" : "auto",
+      "surfaces" : [
+        0.452
+      ]
+    },
+    {
+      "aabb" : {
+        "max" : [
+          2.265,
+          0.975,
+          5.525
+        ],
+        "min" : [
+          2.055,
+          0.74,
+          5.315
+        ]
+      },
+      "concept" : "candle",
+      "hazards" : [
+        "heat",
+        "breakable"
+      ],
+      "id" : "dining.hurricane",
+      "label" : "Hurricane candle",
+      "role" : "hazard",
+      "source" : "auto",
+      "surfaces" : [
+
+      ]
+    },
+    {
+      "aabb" : {
+        "max" : [
+          2.0170002,
+          0.84000003,
+          5.737
+        ],
+        "min" : [
+          1.7630001,
+          0.74,
+          5.4830003
+        ]
+      },
+      "concept" : "bowl",
+      "hazards" : [
+        "breakable"
+      ],
+      "id" : "dining.servingBowl",
+      "label" : "Serving bowl",
+      "role" : "hazard",
+      "source" : "auto",
+      "surfaces" : [
+
+      ]
+    },
+    {
+      "aabb" : {
+        "max" : [
+          2.74,
+          0.74,
+          6
+        ],
+        "min" : [
+          1.5800002,
+          0,
+          4.84
+        ]
+      },
+      "concept" : "dining table",
+      "hazards" : [
+        "corners"
+      ],
+      "id" : "dining.table",
+      "label" : "Dining table",
+      "role" : "both",
+      "source" : "auto",
+      "surfaces" : [
+        0.74
+      ]
+    },
+    {
+      "aabb" : {
+        "max" : [
+          3.0210001,
+          1.04,
+          3.421
+        ],
+        "min" : [
+          2.779,
+          0.92,
+          3.179
+        ]
+      },
+      "concept" : "bowl",
+      "hazards" : [
+
+      ],
+      "id" : "island.fruitBowl",
+      "label" : "Fruit bowl",
+      "role" : "neutral",
+      "source" : "auto",
+      "surfaces" : [
+
+      ]
+    },
+    {
+      "aabb" : {
+        "max" : [
+          1.87,
+          0.986,
+          3.21
+        ],
+        "min" : [
+          1.4499999,
+          0.92,
+          2.9099998
+        ]
+      },
+      "concept" : "place setting",
+      "hazards" : [
+        "sharp",
+        "breakable"
+      ],
+      "id" : "island.setting.a",
+      "label" : "Place setting 1",
+      "role" : "hazard",
+      "source" : "auto",
+      "surfaces" : [
+
+      ]
+    },
+    {
+      "aabb" : {
+        "max" : [
+          1.87,
+          0.986,
+          3.71
+        ],
+        "min" : [
+          1.4499999,
+          0.92,
+          3.4099998
+        ]
+      },
+      "concept" : "place setting",
+      "hazards" : [
+        "sharp",
+        "breakable"
+      ],
+      "id" : "island.setting.b",
+      "label" : "Place setting 2",
+      "role" : "hazard",
+      "source" : "auto",
+      "surfaces" : [
+
+      ]
+    },
+    {
+      "aabb" : {
+        "max" : [
+          3.273,
+          0.968,
+          3.1126032
+        ],
+        "min" : [
+          3.0870001,
+          0.92,
+          2.9273968
+        ]
+      },
+      "concept" : "plate",
+      "hazards" : [
+        "breakable"
+      ],
+      "id" : "island.sidePlates",
+      "label" : "Side plates",
+      "role" : "hazard",
+      "source" : "auto",
+      "surfaces" : [
+
+      ]
+    },
+    {
+      "aabb" : {
+        "max" : [
+          1.9624376,
+          1.015,
+          2.6674376
+        ],
+        "min" : [
+          1.4775624,
+          -0.0017015702,
+          2.121
+        ]
+      },
+      "concept" : "bar stool",
+      "hazards" : [
+        "tipOver",
+        "falls"
+      ],
+      "id" : "island.stool.a",
+      "label" : "Counter stool 1",
+      "role" : "both",
+      "source" : "auto",
+      "surfaces" : [
+        0.2,
+        0.676
+      ]
+    },
+    {
+      "aabb" : {
+        "max" : [
+          1.9624376,
+          1.015,
+          4.499
+        ],
+        "min" : [
+          1.4775624,
+          -0.0017015702,
+          3.9525623
+        ]
+      },
+      "concept" : "bar stool",
+      "hazards" : [
+        "tipOver",
+        "falls"
+      ],
+      "id" : "island.stool.b",
+      "label" : "Counter stool 2",
+      "role" : "both",
+      "source" : "auto",
+      "surfaces" : [
+        0.2,
+        0.676
+      ]
+    },
+    {
+      "aabb" : {
+        "max" : [
+          3.48,
+          0.92,
+          3.88
+        ],
+        "min" : [
+          1.2400001,
+          0,
+          2.7399998
+        ]
+      },
+      "concept" : "kitchen island",
+      "hazards" : [
+
+      ],
+      "id" : "island.top",
+      "label" : "Quartz breakfast bar",
+      "role" : "climbable",
+      "source" : "auto",
+      "surfaces" : [
+        0.92
+      ]
+    },
+    {
+      "aabb" : {
+        "max" : [
+          2.716,
+          1.018,
+          3.6660001
+        ],
+        "min" : [
+          2.644,
+          0.92,
+          3.594
+        ]
+      },
+      "concept" : "glass",
+      "hazards" : [
+        "breakable"
+      ],
+      "id" : "island.tumbler",
+      "label" : "Tumbler",
+      "role" : "hazard",
+      "source" : "auto",
+      "surfaces" : [
+
+      ]
+    },
+    {
+      "aabb" : {
+        "max" : [
+          2.4780002,
+          1.221,
+          3.348
+        ],
+        "min" : [
+          2.402,
+          0.92,
+          3.2719998
+        ]
+      },
+      "concept" : "wine bottle",
+      "hazards" : [
+        "breakable"
+      ],
+      "id" : "island.wineBottle",
+      "label" : "Wine bottle",
+      "role" : "hazard",
+      "source" : "auto",
+      "surfaces" : [
+
+      ]
+    },
+    {
+      "aabb" : {
+        "max" : [
+          2.2625,
+          1.1290001,
+          3.0425
+        ],
+        "min" : [
+          2.1775,
+          0.92,
+          2.9575
+        ]
+      },
+      "concept" : "wine glass",
+      "hazards" : [
+        "breakable"
+      ],
+      "id" : "island.wineGlass.a",
+      "label" : "Wine glass 1",
+      "role" : "hazard",
+      "source" : "auto",
+      "surfaces" : [
+
+      ]
+    },
+    {
+      "aabb" : {
+        "max" : [
+          2.2625,
+          1.1290001,
+          3.6625
+        ],
+        "min" : [
+          2.1775,
+          0.92,
+          3.5774999
+        ]
+      },
+      "concept" : "wine glass",
+      "hazards" : [
+        "breakable"
+      ],
+      "id" : "island.wineGlass.b",
+      "label" : "Wine glass 2",
+      "role" : "hazard",
+      "source" : "auto",
+      "surfaces" : [
+
+      ]
+    },
+    {
+      "aabb" : {
+        "max" : [
+          4.42,
+          0.88,
+          0.6
+        ],
+        "min" : [
+          2.2000003,
+          0,
+          0
+        ]
+      },
+      "concept" : "cabinet",
+      "hazards" : [
+        "chemicals"
+      ],
+      "id" : "kitchen.baseCabinets",
+      "label" : "Base cabinets",
+      "role" : "hazard",
+      "source" : "auto",
+      "surfaces" : [
+
+      ]
+    },
+    {
+      "aabb" : {
+        "max" : [
+          4.42,
+          0.95500004,
+          0.64
+        ],
+        "min" : [
+          1.5999999,
+          0.88,
+          0
+        ]
+      },
+      "concept" : "countertop",
+      "hazards" : [
+
+      ],
+      "id" : "kitchen.countertop",
+      "label" : "Quartz countertop",
+      "role" : "climbable",
+      "source" : "auto",
+      "surfaces" : [
+        0.92
+      ]
+    },
+    {
+      "aabb" : {
+        "max" : [
+          1.93,
+          1.3320591,
+          0.10975897
+        ],
+        "min" : [
+          1.63,
+          0.9178177,
+          -0.0014154091
+        ]
+      },
+      "concept" : "cutting board",
+      "hazards" : [
+        "sharp"
+      ],
+      "id" : "kitchen.cuttingBoard",
+      "label" : "Cutting board",
+      "role" : "hazard",
+      "source" : "auto",
+      "surfaces" : [
+
+      ]
+    },
+    {
+      "aabb" : {
+        "max" : [
+          2.2,
+          0.88,
+          0.6
+        ],
+        "min" : [
+          1.6000001,
+          0,
+          0
+        ]
+      },
+      "concept" : "dishwasher",
+      "hazards" : [
+        "sharp",
+        "chemicals"
+      ],
+      "id" : "kitchen.dishwasher",
+      "label" : "Dishwasher",
+      "role" : "hazard",
+      "source" : "auto",
+      "surfaces" : [
+
+      ]
+    },
+    {
+      "aabb" : {
+        "max" : [
+          0.94,
+          1.82,
+          0.782
+        ],
+        "min" : [
+          0.01999998,
+          0,
+          0
+        ]
+      },
+      "concept" : "refrigerator",
+      "hazards" : [
+
+      ],
+      "id" : "kitchen.fridge",
+      "label" : "Refrigerator",
+      "role" : "neutral",
+      "source" : "auto",
+      "surfaces" : [
+
+      ]
+    },
+    {
+      "aabb" : {
+        "max" : [
+          2.3025503,
+          1.1824675,
+          0.31615242
+        ],
+        "min" : [
+          2.023598,
+          0.92,
+          0.05863671
+        ]
+      },
+      "concept" : "kettle",
+      "hazards" : [
+        "heat",
+        "cords"
+      ],
+      "id" : "kitchen.kettle",
+      "label" : "Kettle",
+      "role" : "hazard",
+      "source" : "auto",
+      "surfaces" : [
+
+      ]
+    },
+    {
+      "aabb" : {
+        "max" : [
+          4.4,
+          0.85,
+          0.6375106
+        ],
+        "min" : [
+          3.84,
+          0.51,
+          0.18000007
+        ]
+      },
+      "concept" : "microwave",
+      "hazards" : [
+        "heat"
+      ],
+      "id" : "kitchen.microwave",
+      "label" : "Microwave",
+      "role" : "hazard",
+      "source" : "auto",
+      "surfaces" : [
+
+      ]
+    },
+    {
+      "aabb" : {
+        "max" : [
+          2.1754742,
+          1.015,
+          0.518817
+        ],
+        "min" : [
+          2.0412323,
+          0.92,
+          0.38012987
+        ]
+      },
+      "concept" : "mug",
+      "hazards" : [
+        "breakable",
+        "heat"
+      ],
+      "id" : "kitchen.mug.a",
+      "label" : "Mug 1",
+      "role" : "hazard",
+      "source" : "auto",
+      "surfaces" : [
+
+      ]
+    },
+    {
+      "aabb" : {
+        "max" : [
+          2.0267577,
+          1.015,
+          0.6336745
+        ],
+        "min" : [
+          1.9297794,
+          0.92,
+          0.5129781
+        ]
+      },
+      "concept" : "mug",
+      "hazards" : [
+        "breakable",
+        "heat"
+      ],
+      "id" : "kitchen.mug.b",
+      "label" : "Mug 2",
+      "role" : "hazard",
+      "source" : "auto",
+      "surfaces" : [
+
+      ]
+    },
+    {
+      "aabb" : {
+        "max" : [
+          3.994,
+          1.186,
+          0.21400002
+        ],
+        "min" : [
+          3.926,
+          0.92,
+          0.146
+        ]
+      },
+      "concept" : "bottle",
+      "hazards" : [
+        "breakable"
+      ],
+      "id" : "kitchen.oilBottle",
+      "label" : "Oil bottle",
+      "role" : "hazard",
+      "source" : "auto",
+      "surfaces" : [
+
+      ]
+    },
+    {
+      "aabb" : {
+        "max" : [
+          3.535119,
+          1.0511718,
+          0.404
+        ],
+        "min" : [
+          3.146,
+          0.947,
+          0.19600001
+        ]
+      },
+      "concept" : "pan",
+      "hazards" : [
+        "heat"
+      ],
+      "id" : "kitchen.pan",
+      "label" : "Sauté pan",
+      "role" : "hazard",
+      "source" : "auto",
+      "surfaces" : [
+
+      ]
+    },
+    {
+      "aabb" : {
+        "max" : [
+          1.928,
+          0.992,
+          0.487454
+        ],
+        "min" : [
+          1.6719999,
+          0.92,
+          0.23254603
+        ]
+      },
+      "concept" : "plate",
+      "hazards" : [
+        "breakable"
+      ],
+      "id" : "kitchen.plates",
+      "label" : "Stack of plates",
+      "role" : "hazard",
+      "source" : "auto",
+      "surfaces" : [
+
+      ]
+    },
+    {
+      "aabb" : {
+        "max" : [
+          3.828,
+          0.947,
+          0.669
+        ],
+        "min" : [
+          3.052,
+          0,
+          0
+        ]
+      },
+      "concept" : "stove",
+      "hazards" : [
+        "heat"
+      ],
+      "id" : "kitchen.range",
+      "label" : "Gas range",
+      "role" : "hazard",
+      "source" : "auto",
+      "surfaces" : [
+
+      ]
+    },
+    {
+      "aabb" : {
+        "max" : [
+          2.92,
+          1.3255988,
+          0.51
+        ],
+        "min" : [
+          2.3400002,
+          0.66999996,
+          0.030000001
+        ]
+      },
+      "concept" : "sink",
+      "hazards" : [
+        "water",
+        "chemicals"
+      ],
+      "id" : "kitchen.sink",
+      "label" : "Sink and faucet",
+      "role" : "hazard",
+      "source" : "auto",
+      "surfaces" : [
+
+      ]
+    },
+    {
+      "aabb" : {
+        "max" : [
+          4.35,
+          1.036,
+          0.245
+        ],
+        "min" : [
+          4.1299996,
+          0.92,
+          0.155
+        ]
+      },
+      "concept" : "spice jar",
+      "hazards" : [
+        "choking",
+        "breakable"
+      ],
+      "id" : "kitchen.spiceRack",
+      "label" : "Spice rack",
+      "role" : "hazard",
+      "source" : "auto",
+      "surfaces" : [
+
+      ]
+    },
+    {
+      "aabb" : {
+        "max" : [
+          3.9121587,
+          0.78,
+          7.3521523
+        ],
+        "min" : [
+          2.966745,
+          0,
+          6.3992567
+        ]
+      },
+      "concept" : "armchair",
+      "hazards" : [
+
+      ],
+      "id" : "living.armchair",
+      "label" : "Cognac swivel chair",
+      "role" : "climbable",
+      "source" : "auto",
+      "surfaces" : [
+        0.44
+      ]
+    },
+    {
+      "aabb" : {
+        "max" : [
+          1.9150001,
+          0.428,
+          8.014509
+        ],
+        "min" : [
+          1.6850001,
+          0.35,
+          7.78549
+        ]
+      },
+      "concept" : "bowl",
+      "hazards" : [
+        "breakable"
+      ],
+      "id" : "living.coffee.bowl",
+      "label" : "Ceramic bowl",
+      "role" : "hazard",
+      "source" : "auto",
+      "surfaces" : [
+
+      ]
+    },
+    {
+      "aabb" : {
+        "max" : [
+          2.1877937,
+          0.369,
+          8.04487
+        ],
+        "min" : [
+          2.0162237,
+          0.35,
+          7.8365493
+        ]
+      },
+      "concept" : "remote control",
+      "hazards" : [
+        "choking"
+      ],
+      "id" : "living.coffee.remotes",
+      "label" : "Remote controls",
+      "role" : "hazard",
+      "source" : "auto",
+      "surfaces" : [
+
+      ]
+    },
+    {
+      "aabb" : {
+        "max" : [
+          2.8580031,
+          0.35,
+          8.248186
+        ],
+        "min" : [
+          1.4554634,
+          0,
+          7.225052
+        ]
+      },
+      "concept" : "coffee table",
+      "hazards" : [
+        "corners"
+      ],
+      "id" : "living.coffeeTable",
+      "label" : "Pebble coffee table",
+      "role" : "both",
+      "source" : "auto",
+      "surfaces" : [
+        0.35
+      ]
+    },
+    {
+      "aabb" : {
+        "max" : [
+          4.59,
+          0.796,
+          9.360001
+        ],
+        "min" : [
+          4.25,
+          0,
+          8.16
+        ]
+      },
+      "concept" : "console table",
+      "hazards" : [
+        "corners"
+      ],
+      "id" : "living.console",
+      "label" : "Console table",
+      "role" : "both",
+      "source" : "auto",
+      "surfaces" : [
+        0.796
+      ]
+    },
+    {
+      "aabb" : {
+        "max" : [
+          4.5080004,
+          1.2490001,
+          8.507999
+        ],
+        "min" : [
+          4.212,
+          0.796,
+          8.212
+        ]
+      },
+      "concept" : "lamp",
+      "hazards" : [
+        "cords",
+        "breakable"
+      ],
+      "id" : "living.consoleLamp",
+      "label" : "Table lamp",
+      "role" : "hazard",
+      "source" : "auto",
+      "surfaces" : [
+
+      ]
+    },
+    {
+      "aabb" : {
+        "max" : [
+          0.643,
+          1.5799999,
+          6.623
+        ],
+        "min" : [
+          0.237,
+          0,
+          6.217
+        ]
+      },
+      "concept" : "floor lamp",
+      "hazards" : [
+        "tipOver",
+        "cords"
+      ],
+      "id" : "living.floorLamp",
+      "label" : "Floor lamp",
+      "role" : "hazard",
+      "source" : "auto",
+      "surfaces" : [
+
+      ]
+    },
+    {
+      "aabb" : {
+        "max" : [
+          0.52991074,
+          2.321888,
+          5.348
+        ],
+        "min" : [
+          0.06663787,
+          -0.0018880367,
+          4.372
+        ]
+      },
+      "concept" : "shelf",
+      "hazards" : [
+        "tipOver",
+        "falls"
+      ],
+      "id" : "living.ladderShelf",
+      "label" : "Ladder shelving",
+      "role" : "both",
+      "source" : "auto",
+      "surfaces" : [
+        0.3,
+        0.77,
+        1.24,
+        1.7099998,
+        2.1799998
+      ]
+    },
+    {
+      "aabb" : {
+        "max" : [
+          4.26762,
+          0.37,
+          8.527619
+        ],
+        "min" : [
+          3.6123803,
+          0,
+          7.87238
+        ]
+      },
+      "concept" : "ottoman",
+      "hazards" : [
+
+      ],
+      "id" : "living.pouf",
+      "label" : "Mustard pouf",
+      "role" : "climbable",
+      "source" : "auto",
+      "surfaces" : [
+
+      ]
+    },
+    {
+      "aabb" : {
+        "max" : [
+          0.32149506,
+          1.7839998,
+          5.242
+        ],
+        "min" : [
+          0.15819462,
+          1.7219998,
+          5.0780005
+        ]
+      },
+      "concept" : "bowl",
+      "hazards" : [
+        "breakable"
+      ],
+      "id" : "living.shelf.bowl",
+      "label" : "Stoneware bowl",
+      "role" : "hazard",
+      "source" : "auto",
+      "surfaces" : [
+
+      ]
+    },
+    {
+      "aabb" : {
+        "max" : [
+          0.32184488,
+          1.7479998,
+          4.886
+        ],
+        "min" : [
+          0.20984484,
+          1.7219998,
+          4.7739997
+        ]
+      },
+      "concept" : "dish",
+      "hazards" : [
+        "choking"
+      ],
+      "id" : "living.shelf.brassDish",
+      "label" : "Brass dish",
+      "role" : "hazard",
+      "source" : "auto",
+      "surfaces" : [
+
+      ]
+    },
+    {
+      "aabb" : {
+        "max" : [
+          0.44874707,
+          1.042,
+          4.705553
+        ],
+        "min" : [
+          0.2163566,
+          0.782,
+          4.5344477
+        ]
+      },
+      "concept" : "speaker",
+      "hazards" : [
+        "cords"
+      ],
+      "id" : "living.shelf.speaker",
+      "label" : "Bookshelf speaker",
+      "role" : "hazard",
+      "source" : "auto",
+      "surfaces" : [
+
+      ]
+    },
+    {
+      "aabb" : {
+        "max" : [
+          0.27727586,
+          2.4269998,
+          5.2120004
+        ],
+        "min" : [
+          0.13327587,
+          2.192,
+          5.0680003
+        ]
+      },
+      "concept" : "vase",
+      "hazards" : [
+        "breakable"
+      ],
+      "id" : "living.shelf.vase.clay",
+      "label" : "Clay vase",
+      "role" : "hazard",
+      "source" : "auto",
+      "surfaces" : [
+
+      ]
+    },
+    {
+      "aabb" : {
+        "max" : [
+          0.27727592,
+          2.3119998,
+          4.6580005
+        ],
+        "min" : [
+          0.1612759,
+          2.192,
+          4.5420003
+        ]
+      },
+      "concept" : "vase",
+      "hazards" : [
+        "breakable"
+      ],
+      "id" : "living.shelf.vase.squat",
+      "label" : "Squat vase",
+      "role" : "hazard",
+      "source" : "auto",
+      "surfaces" : [
+
+      ]
+    },
+    {
+      "aabb" : {
+        "max" : [
+          0.41098273,
+          1.0469999,
+          5.2580004
+        ],
+        "min" : [
+          0.2549827,
+          0.782,
+          5.102
+        ]
+      },
+      "concept" : "vase",
+      "hazards" : [
+        "breakable"
+      ],
+      "id" : "living.shelf.vase.tall",
+      "label" : "Stoneware vase",
+      "role" : "hazard",
+      "source" : "auto",
+      "surfaces" : [
+
+      ]
+    },
+    {
+      "aabb" : {
+        "max" : [
+          0.45555177,
+          0.497,
+          4.6219997
+        ],
+        "min" : [
+          0.33155176,
+          0.312,
+          4.498
+        ]
+      },
+      "concept" : "vase",
+      "hazards" : [
+        "breakable"
+      ],
+      "id" : "living.shelf.vase.terracotta",
+      "label" : "Terracotta vase",
+      "role" : "hazard",
+      "source" : "auto",
+      "surfaces" : [
+
+      ]
+    },
+    {
+      "aabb" : {
+        "max" : [
+          1.0800002,
+          0.8,
+          8.75
+        ],
+        "min" : [
+          0.15999982,
+          0,
+          6.5699997
+        ]
+      },
+      "concept" : "sofa",
+      "hazards" : [
+
+      ],
+      "id" : "living.sofa",
+      "label" : "Navy tufted sofa",
+      "role" : "climbable",
+      "source" : "auto",
+      "surfaces" : [
+        0.45
+      ]
+    },
+    {
+      "aabb" : {
+        "max" : [
+          4.5350003,
+          1.2709999,
+          9.339999
+        ],
+        "min" : [
+          4.3849998,
+          0.796,
+          8.62
+        ]
+      },
+      "concept" : "television",
+      "hazards" : [
+        "tipOver",
+        "cords"
+      ],
+      "id" : "living.tv",
+      "label" : "Television",
+      "role" : "hazard",
+      "source" : "auto",
+      "surfaces" : [
+
+      ]
+    },
+    {
+      "aabb" : {
+        "max" : [
+          2.106,
+          0.61399996,
+          7.766
+        ],
+        "min" : [
+          1.934,
+          0.35,
+          7.594
+        ]
+      },
+      "concept" : "vase",
+      "hazards" : [
+        "breakable"
+      ],
+      "id" : "living.vase.amber",
+      "label" : "Amber vase",
+      "role" : "hazard",
+      "source" : "auto",
+      "surfaces" : [
+
+      ]
+    },
+    {
+      "aabb" : {
+        "max" : [
+          4.8,
+          2.34,
+          7.92
+        ],
+        "min" : [
+          4.7,
+          0.44,
+          6.36
+        ]
+      },
+      "concept" : "window",
+      "hazards" : [
+        "falls"
+      ],
+      "id" : "shell.window.eastA",
+      "label" : "East window 1",
+      "role" : "hazard",
+      "source" : "auto",
+      "surfaces" : [
+
+      ]
+    },
+    {
+      "aabb" : {
+        "max" : [
+          4.8,
+          2.34,
+          9.26
+        ],
+        "min" : [
+          4.7,
+          0.44,
+          8.3
+        ]
+      },
+      "concept" : "window",
+      "hazards" : [
+        "falls"
+      ],
+      "id" : "shell.window.eastB",
+      "label" : "East window 2",
+      "role" : "hazard",
+      "source" : "auto",
+      "surfaces" : [
+
+      ]
+    },
+    {
+      "aabb" : {
+        "max" : [
+          4.24,
+          2.34,
+          9.5
+        ],
+        "min" : [
+          2.54,
+          0.44,
+          9.4
+        ]
+      },
+      "concept" : "window",
+      "hazards" : [
+        "falls"
+      ],
+      "id" : "shell.window.south",
+      "label" : "South window",
+      "role" : "hazard",
+      "source" : "auto",
+      "surfaces" : [
+
+      ]
+    }
+  ],
+  "provenance" : "Object bounds are measured from the 3D model; surface heights come from its dimensions."
+}

@@ -1,0 +1,12 @@
+.secrets/
+*.xcodeproj
+DerivedData/
+build/
+.DS_Store
+/private/tmp
+
+# Scratch: reference video, extracted frames, SfM database, demo screenshots
+.recon/
+
+# Local planning notes
+CLAUDE.md

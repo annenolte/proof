@@ -1,0 +1,190 @@
+# proof concept map: SAM 3 noun phrase -> hazard role and categories.
+# Mirrors proof/Core/Safety/ConceptCatalog.swift, which is what runs. Developer approval pending (CLAUDE.md Stage 4).
+# Surface heights (m) come from the kitchen model's authored dimensions.
+concepts:
+  - match: "kitchen.range"
+    concept: "stove"
+    role: hazard
+    hazards: [heat]
+  - match: "kitchen.pan"
+    concept: "pan"
+    role: hazard
+    hazards: [heat]
+  - match: "kitchen.kettle"
+    concept: "kettle"
+    role: hazard
+    hazards: [heat, cords]
+  - match: "kitchen.microwave"
+    concept: "microwave"
+    role: hazard
+    hazards: [heat]
+  - match: "kitchen.oilBottle"
+    concept: "bottle"
+    role: hazard
+    hazards: [breakable]
+  - match: "kitchen.plates"
+    concept: "plate"
+    role: hazard
+    hazards: [breakable]
+  - match: "kitchen.mug."
+    concept: "mug"
+    role: hazard
+    hazards: [breakable, heat]
+  - match: "kitchen.spiceRack"
+    concept: "spice jar"
+    role: hazard
+    hazards: [choking, breakable]
+  - match: "kitchen.cuttingBoard"
+    concept: "cutting board"
+    role: hazard
+    hazards: [sharp]
+  - match: "kitchen.baseCabinets"
+    concept: "cabinet"
+    role: hazard
+    hazards: [chemicals]
+  - match: "kitchen.dishwasher"
+    concept: "dishwasher"
+    role: hazard
+    hazards: [sharp, chemicals]
+  - match: "kitchen.sink"
+    concept: "sink"
+    role: hazard
+    hazards: [water, chemicals]
+  - match: "kitchen.countertop"
+    concept: "countertop"
+    role: climbable
+    hazards: []
+    surfaces: [0.92]
+  - match: "kitchen.fridge"
+    concept: "refrigerator"
+    role: neutral
+    hazards: []
+  - match: "island.top"
+    concept: "kitchen island"
+    role: climbable
+    hazards: []
+    surfaces: [0.92]
+  - match: "island.stool."
+    concept: "bar stool"
+    role: both
+    hazards: [tipOver, falls]
+    surfaces: [0.20, 0.676]
+  - match: "island.wineBottle"
+    concept: "wine bottle"
+    role: hazard
+    hazards: [breakable]
+  - match: "island.wineGlass."
+    concept: "wine glass"
+    role: hazard
+    hazards: [breakable]
+  - match: "island.tumbler"
+    concept: "glass"
+    role: hazard
+    hazards: [breakable]
+  - match: "island.setting."
+    concept: "place setting"
+    role: hazard
+    hazards: [sharp, breakable]
+  - match: "island.sidePlates"
+    concept: "plate"
+    role: hazard
+    hazards: [breakable]
+  - match: "island.fruitBowl"
+    concept: "bowl"
+    role: neutral
+    hazards: []
+  - match: "dining.table"
+    concept: "dining table"
+    role: both
+    hazards: [corners]
+    surfaces: [0.74]
+  - match: "dining.chair."
+    concept: "chair"
+    role: climbable
+    hazards: []
+    surfaces: [0.452]
+  - match: "dining.hurricane"
+    concept: "candle"
+    role: hazard
+    hazards: [heat, breakable]
+  - match: "dining.carafe"
+    concept: "glass carafe"
+    role: hazard
+    hazards: [breakable]
+  - match: "dining.servingBowl"
+    concept: "bowl"
+    role: hazard
+    hazards: [breakable]
+  - match: "living.sofa"
+    concept: "sofa"
+    role: climbable
+    hazards: []
+    surfaces: [0.45]
+  - match: "living.armchair"
+    concept: "armchair"
+    role: climbable
+    hazards: []
+    surfaces: [0.44]
+  - match: "living.pouf"
+    concept: "ottoman"
+    role: climbable
+    hazards: []
+  - match: "living.coffeeTable"
+    concept: "coffee table"
+    role: both
+    hazards: [corners]
+    surfaces: [0.35]
+  - match: "living.console"
+    concept: "console table"
+    role: both
+    hazards: [corners]
+    surfaces: [0.796]
+  - match: "living.ladderShelf"
+    concept: "shelf"
+    role: both
+    hazards: [tipOver, falls]
+    surfaces: [0.30, 0.77, 1.24, 1.71, 2.18]
+  - match: "living.tv"
+    concept: "television"
+    role: hazard
+    hazards: [tipOver, cords]
+  - match: "living.floorLamp"
+    concept: "floor lamp"
+    role: hazard
+    hazards: [tipOver, cords]
+  - match: "living.consoleLamp"
+    concept: "lamp"
+    role: hazard
+    hazards: [cords, breakable]
+  - match: "living.shelf.speaker"
+    concept: "speaker"
+    role: hazard
+    hazards: [cords]
+  - match: "living.coffee.remotes"
+    concept: "remote control"
+    role: hazard
+    hazards: [choking]
+  - match: "living.vase."
+    concept: "vase"
+    role: hazard
+    hazards: [breakable]
+  - match: "living.shelf.vase."
+    concept: "vase"
+    role: hazard
+    hazards: [breakable]
+  - match: "living.coffee.bowl"
+    concept: "bowl"
+    role: hazard
+    hazards: [breakable]
+  - match: "living.shelf.bowl"
+    concept: "bowl"
+    role: hazard
+    hazards: [breakable]
+  - match: "living.shelf.brassDish"
+    concept: "dish"
+    role: hazard
+    hazards: [choking]
+  - match: "shell.window."
+    concept: "window"
+    role: hazard
+    hazards: [falls]
